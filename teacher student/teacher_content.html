@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Teacher-form</title>
+   <link rel="stylesheet" href="content.css">
+   <script src="teacher_content.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+   <div class="form">
+      <h3 class="display-3 text-center mb-3">Registration Form</h3>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="text" id="name">
+         <label for="name">Name:</label>
+         <p id="name_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="email" id="email">
+         <label for="email">Email:</label>
+         <p id="email_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="number" id="phonenumber">
+         <label for="phonenumber">PhoneNumber:</label>
+         <p id="phonenumber_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="password" id="password">
+         <label for="password">Password:</label>
+         <p id="password_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="password" id="cpassword">
+         <label for="cpassword">C-Password:</label>
+         <p id="cpassword_err" class="text-danger"></p>
+      </div>
+      <div>
+         <label>Gender:</label><br>
+         <input type="checkbox" name="gender" onchange="male()" id="male" value="male" style="height:20px; width:20px;">
+         <label for="male">Male</label>
+         <input type="checkbox" name="gender" onchange="female()" id="female" value="female"
+            style="height:20px; width:20px;">
+         <label for="female">Female</label>
+         <p id="gender_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <select class=" rounded form-select" id="language">
+            <option>Select</option>
+            <option>Tamil</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Spanish</option>
+            <option>French</option>
+         </select>
+         <label for="language">Language:</label>
+         <p id="language_err" class="text-danger"></p>
+      </div>
+      <div class="content form-floating">
+         <input class=" rounded form-control" type="date" id="dateofbirth">
+         <label for="dateofbirth">Date of Birth:</label>
+         <p id="dateofbirth_err" class="text-danger"></p>
+      </div>
+      <div class="text-center">
+         <button type="submit" class="btn btn-outline-light rounded-pill px-5 py-2 fs-4"
+            onclick="submit()">Submit</button>
+            <button type="submit" class="btn btn-outline-light rounded-pill px-5 py-2 fs-4"
+            onclick="cancel()">Cancel</button>
+      </div>
+   </div>
+</body>
+</html>

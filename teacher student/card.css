@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: repeating-linear-gradient(to right,#64fcfca8,#FF69B4);
+
+}
+.card{
+    box-shadow: 10px 10px rgba(107, 107, 107, 0.7);
+    margin-top: 50px;
+}

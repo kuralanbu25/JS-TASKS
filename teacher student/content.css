@@ -1,0 +1,30 @@
+body{
+   background-image: repeating-linear-gradient(to right,#64fcfca8,#FF69B4);
+   overflow-x: hidden;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   width: 100%;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.form{
+    background-image: repeating-linear-gradient(to right,#EA738D,#89ABE3);
+    padding: 50px;
+}
+select{
+    height: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+input{
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 3px;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: repeating-linear-gradient(to right,#4ecbf5 ,purple  );
+    margin: 0;
+    padding: 0;
+}
+table{
+    box-shadow:10px 10px rgba(9, 9, 9, 0.3);
+   
+    
+}
+table tr:hover {
+    background-color: rgb(229, 225, 224) !important;
+}
+button{
+    box-shadow:5px 5px rgba(9, 9, 9, 0.3);
+
+}

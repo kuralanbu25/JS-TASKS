@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background-image: repeating-linear-gradient(to right,purple,rgba(0, 255, 255, 0.836));
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 10px;
+    width: 300px;
+    
+}
+input:active{
+    border: none ;
+}
+
+.container{
+    width: 600px;
+    margin-top: 30px;
+    background-color: #1a14148a;
+    box-shadow: 10px 10px rgb(0, 0, 0,0.7);
+    padding: 50px;
+}
+.add{
+    width: 150px;
+    margin-top: 0;
+}
+button{
+    padding: 30px;
+    margin-top: 5px;
+}
+ 

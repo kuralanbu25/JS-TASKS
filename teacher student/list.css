@@ -1,0 +1,6 @@
+body{
+    background-image: repeating-linear-gradient(to right,#64fcfca8,#FF69B4) !important;
+}
+.card{
+    background-color: rgba(75, 75, 75, 0.322);
+}     
